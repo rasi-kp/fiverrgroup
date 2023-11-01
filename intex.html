@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +8,25 @@
     <title>fiverr</title>
 </head>
   <body style="background-color: rgb(29, 83, 29);">
-    
+    <div>
+      <nav class="navbar" >
+        <div class="logo">
+          <img
+            src="data:image/png;base64,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"
+            alt=""
+          />
+        </div>
+        <div class="nav-items">
+            <a href=""  class="lnks">Business solutions</a>
+            <a href="" class="lnks">explore</a>
+            <a href="" class="lnks">English</a>
+            <a href="" class="lnks">Become a seller</a>
+            <a href="" class="lnks">Sign In</a>
+            
+            <button class="btn">Join</button>
+        </div>
+      </nav>
+    </div>
     <div class="=hero" style="padding-top: 250px;padding-left: 60px;">
         <h1 style="color: white; background-size: cover;">Find the right freelance <br> service, right away</h1>
         <input type="text" placeholder="search for any service..">

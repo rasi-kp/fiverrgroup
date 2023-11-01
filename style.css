@@ -1,3 +1,35 @@
+
+.logo{
+    padding: 10px;
+}
+
+.logo img{
+    height: 50px;
+}
+body{
+    color: #298329;
+}
+.navbar{
+    display: flex;
+    
+    width: 100%;
+}
+
+.nav-items{
+    margin-right: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding-left: 2px;
+    /* background-color: aqua; */
+}
+
+.lnks{
+    padding: 20px;
+}
+
+.btn{
+    /* h20 */
 .footer{
     padding: 10px;
     margin-left: 10px;
@@ -16,4 +48,5 @@
     width: 100%;
     text-decoration: none;
     font-size: 20px;
+
 }
