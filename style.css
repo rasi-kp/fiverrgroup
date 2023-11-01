@@ -1,3 +1,4 @@
+
 .logo{
     padding: 10px;
 }
@@ -29,4 +30,23 @@ body{
 
 .btn{
     /* h20 */
+.footer{
+    padding: 10px;
+    margin-left: 10px;
+}
+.rowb{
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align:center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rowb a{
+    color:rgb(0, 0, 0) ;
+    width: 100%;
+    text-decoration: none;
+    font-size: 20px;
+
 }
